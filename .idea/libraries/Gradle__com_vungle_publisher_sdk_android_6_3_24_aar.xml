@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.vungle:publisher-sdk-android:6.3.24@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e97c90db2131ae9ce0c16e27164785e5/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7cb16d4b82636f1a4ebe2ca779f694a9/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e97c90db2131ae9ce0c16e27164785e5/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e97c90db2131ae9ce0c16e27164785e5/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e97c90db2131ae9ce0c16e27164785e5/jars/libs/VNG-moat-mobile-app-kit-2.2.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7cb16d4b82636f1a4ebe2ca779f694a9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7cb16d4b82636f1a4ebe2ca779f694a9/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7cb16d4b82636f1a4ebe2ca779f694a9/jars/libs/VNG-moat-mobile-app-kit-2.2.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
