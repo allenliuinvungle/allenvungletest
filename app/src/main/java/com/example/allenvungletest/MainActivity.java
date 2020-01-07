@@ -201,7 +201,7 @@ public class MainActivity extends Activity {
 
                 @Override
                 public void onAdEnd(String id, boolean completed, boolean isCTAClicked) {
-
+makeToast("onAdEnd"+"completed is"+completed);
                 }
 
                 @Override
@@ -336,32 +336,32 @@ public class MainActivity extends Activity {
 
 
 
-    // Implement PlayAdCallback
-    private final PlayAdCallback vunglePlayAdCallback = new PlayAdCallback() {
-        @Override
-        public void onAdStart(String placementReferenceId) {
-            // Placement reference ID for the placement to be played
-            makeToast("onAdStart="+placementReferenceId);
-        }
-
-        @Override
-        public void onAdEnd (String placementReferenceId, boolean completed, boolean isCTAClicked) {
-            // Placement reference ID for the placement that has completed ad experience
-            // completed has value of true or false to notify whether video was
-            // watched for 80% or more
-            // isCTAClkcked has value of true or false to indicate whether download button
-            // of an ad has been clicked by the user
-            makeToast("onAdEnd="+placementReferenceId);
-//            releaseNatveAd();
-            isPlaying=false;
-        }
-
-        @Override
-        public void onError(String placementReferenceId, Throwable exception) {
-            // Placement reference ID for the placement that failed to play an ad
-            // Throwable contains error message
-            makeToast("onError="+placementReferenceId+"=="+exception.getLocalizedMessage());
-            isPlaying=false;
-        }
-    };
+//    // Implement PlayAdCallback
+//    private final PlayAdCallback vunglePlayAdCallback = new PlayAdCallback() {
+//        @Override
+//        public void onAdStart(String placementReferenceId) {
+//            // Placement reference ID for the placement to be played
+//            makeToast("onAdStart="+placementReferenceId);
+//        }
+//
+//        @Override
+//        public void onAdEnd (String placementReferenceId, boolean completed, boolean isCTAClicked) {
+//            // Placement reference ID for the placement that has completed ad experience
+//            // completed has value of true or false to notify whether video was
+//            // watched for 80% or more
+//            // isCTAClkcked has value of true or false to indicate whether download button
+//            // of an ad has been clicked by the user
+//            makeToast("onAdEnd="+placementReferenceId);
+////            releaseNatveAd();
+//            isPlaying=false;
+//        }
+//
+//        @Override
+//        public void onError(String placementReferenceId, Throwable exception) {
+//            // Placement reference ID for the placement that failed to play an ad
+//            // Throwable contains error message
+//            makeToast("onError="+placementReferenceId+"=="+exception.getLocalizedMessage());
+//            isPlaying=false;
+//        }
+//    };
 }

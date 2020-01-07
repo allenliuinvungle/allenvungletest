@@ -12,9 +12,10 @@
     <string name="title_rewarded_playable">Rewarded Playable</string>
     <string name="title_mrec">MREC 300x250</string>
     <string name="title_in_feed">In-Feed</string>
-    <!--<string name="app_id">5bf49746b1fd5362ddda51e2</string>-->
+    <!--<string name="app_id">5bf49746b1fd5362ddda51e2</string>-->  creativeID
 <!--    banner的ID  BANNER2-2291429-->
-    <string name="app_id">5cc56e7b32d162001190424b</string>
+
+    <string name="app_id">5d479f81f56d05001766c05b</string>  //allen test ID
 
 
 
