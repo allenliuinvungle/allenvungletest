@@ -60,7 +60,7 @@ public class MainActivity extends Activity {
             }
 
             @Override
-            public void onError(Throwable throwable) {
+            public void onError(VungleException throwable) {
                 titleTextView.setText(throwable.getLocalizedMessage());
                 // Initialization error occurred - throwable.getLocalizedMessage() contains error message
             }
@@ -183,7 +183,7 @@ public class MainActivity extends Activity {
                     makeToast(placementReferenceId+"onAdLoad");
                 }
                 @Override
-                public void onError(String placementReferenceId, Throwable throwable) {
+                public void onError(String placementReferenceId, VungleException throwable) {
                     // Load ad error occurred - throwable.getLocalizedMessage() contains error message
                     makeToast(placementReferenceId+"onError=="+throwable.getLocalizedMessage());
                 }
@@ -205,7 +205,7 @@ public class MainActivity extends Activity {
                 }
 
                 @Override
-                public void onError(String id, Throwable exception) {
+                public void onError(String id, VungleException exception) {
                     makeToast(placementReferenceId+"onError=="+exception.getLocalizedMessage());
 
                 }
@@ -326,7 +326,7 @@ public class MainActivity extends Activity {
         }
 
         @Override
-        public void onError(String placementReferenceId, Throwable throwable) {
+        public void onError(String placementReferenceId, VungleException throwable) {
             // Placement reference ID for the placement that failed to download ad assets
             // Throwable contains error message
             makeToast("onError="+placementReferenceId+"=="+throwable.getLocalizedMessage());
@@ -357,7 +357,7 @@ public class MainActivity extends Activity {
         }
 
         @Override
-        public void onError(String placementReferenceId, Throwable exception) {
+        public void onError(String placementReferenceId, VungleException exception) {
             // Placement reference ID for the placement that failed to play an ad
             // Throwable contains error message
             makeToast("onError="+placementReferenceId+"=="+exception.getLocalizedMessage());
