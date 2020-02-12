@@ -21,8 +21,8 @@
 
     <string name="placement_id_interstitial_legacy">LOCAL_REWARDED-2684470</string>
     <string name="placement_id_interstitial_dt">RV_001_NEW-6845356</string>
-    <string name="placement_id_rewarded_video">RV_001_NEW-6845356</string>
-    <string name="placement_id_rewarded_playable">RV_001_NEW-6845356</string>
+    <string name="placement_id_rewarded_video">DEFAULT-2566553</string>
+    <string name="placement_id_rewarded_playable">DEFAULT-2566553</string>
     <string name="placement_id_mrec">ALLEN_TEST_MREC-4448051</string>
     <string name="placement_id_in_feed">ALLEN_TEST_INFEED-4341620</string>
 </resources>
