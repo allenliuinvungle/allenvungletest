@@ -14,13 +14,13 @@
     <string name="title_in_feed">In-Feed</string>
     <!--<string name="app_id">5bf49746b1fd5362ddda51e2</string>-->
 <!--    banner的ID  BANNER2-2291429-->
-    <string name="app_id">5cc56e7b32d162001190424b</string>
+    <string name="app_id">5d479f81f56d05001766c05b</string>
 
 
 
     <string name="placement_id_interstitial_legacy">LOCAL_REWARDED-2684470</string>
-    <string name="placement_id_interstitial_dt">RV_001_NEW-6845356</string>
-    <string name="placement_id_rewarded_video">RV_001_NEW-6845356</string>
+    <string name="placement_id_interstitial_dt">DEFAULT-2566553</string>
+    <string name="placement_id_rewarded_video">DEFAULT-2566553</string>
     <string name="placement_id_rewarded_playable">RV_001_NEW-6845356</string>
     <string name="placement_id_mrec">ALLEN_TEST_MREC-4448051</string>
     <string name="placement_id_in_feed">ALLEN_TEST_INFEED-4341620</string>
