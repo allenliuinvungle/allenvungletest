@@ -176,6 +176,9 @@ public class MainActivity extends Activity {
 
     }
     private void loadAd(String placementReferenceId){
+//        Intent intent= new Intent(MainActivity.this,SecondActivity.class);
+//        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//        startActivity(intent);
         if (Vungle.isInitialized()) {
             Vungle.loadAd(placementReferenceId,new LoadAdCallback() {
                 @Override
